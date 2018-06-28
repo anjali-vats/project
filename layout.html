@@ -4,25 +4,25 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Desktop layout</title>
+	<title>layouts</title>
 
 	<link type="text/css" rel="stylesheet" href="css/desktop.css">
 	
 </head>
 
 <body>
-	<section id="page">
-    </section>
+	<section id="backCover">
+        </section>
 
 <section id="box">
-	<div class="circle"><span class="number">2</span></div><!--ipad layout-->
+	<div class="circle"><span class="number">2</span></div> <!--1st circle pop up-->
 </section>
 
-<section id="ad">
+<section id="heading">
 	<p>Ad Blockers: Setback or Spark</br> for Innovation?<p>
 </section>
 
-<section id="backbox"><!--ipad layout-->
+<section id="backbox"><!--background box for ipad layout-->
 
 <section class="content">
 	<p>The real reason why making money with online media is hard</p>
@@ -30,31 +30,31 @@
 </section>
 
 <!--ipad layout-->
-<div class="circle1"><span class="number">1</span></div>
-<div class="line1"></div>
+<div class="circle1"><span class="number">1</span></div> <!-- 2nd circle pop up-->
+<div class="line1"></div> <!--1st horizontal line-->
 <!--ipad layout-->
 
-<div class="vl"></div><!--desktop layout-->
+<div class="vl"></div><!--1st vertical line-->
 
 <section class="content1">
 	<p>How Motherly uses Personalization to create Engagement</p>
 	<div class="box2"></div>
 </section>
 
-<div class="vl1"></div><!--desktop layout-->
+<div class="vl1"></div><!-- 2nd vertical line-->
 
-<div class="line2"></div><!--ipad layout-->
+<div class="line2"></div><!-- 2nd horizontal line-->
 
 <section class="content2">
 	<p>Fixing gmail overload, and now chat overload, for content teams</p>
 	<div class="box3"></div>
 </section>
 
-<div class="line3"></div>
+<div class="line3"></div> <!--3rd horizontal line-->
 
-</section><!--back box-->
+</section> <!-- background back box-->
 
-<!-- The Modal -->
+<!--Open The Modal -->
 <button id="myBtn">Open Modal</button>
 
 <!-- The Modal -->
@@ -63,11 +63,11 @@
   <!-- Modal content -->
   <div class="modal-content">
       <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="close">&times;</span> <!--close button-->
       <h3>Ad Blockers: Setback or Spark for Innovation?</h3>
       </div>
 
-      <div class="circle2"><span class="number">1</span></div>
+      <div class="circle2"><span class="number">1</span></div> <!--pop up circle-->
 
   <div class="modal-body">
     <p class="para1"> 
@@ -85,24 +85,30 @@
   </div>
  
 </div>
-</div><!--myModal-->
+</div>
+<!--myModal-->
 
 <script>
-
+// Get the modal
 var modal = document.getElementById('myModal');
 
+// Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-	
+
+// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+// When the user clicks the button, open the modal 
 btn.onclick = function() {
     modal.style.display = "block";
 }
 
+// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
 
+// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
@@ -112,3 +118,4 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
