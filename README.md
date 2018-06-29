@@ -2,14 +2,14 @@
 Different layouts of screen sizes. More description goes here.
 
 # Prerequisites
-This is not neccessarily required. Install any one editor like Sublime, Atom, Brakets etc to run the code. You can easily download it from google accordingly for window or Mac version. Else, you can just follow the steps below.
+This is not neccessarily required. Install any one editor like Sublime, Atom, Brakets etc to run the code. You can easily download it from google accordingly for Windows or Mac version. Else, you can just follow the steps below.
 
-# Installing Process
+# Installing and Execution Process
 Follow these steps to download as instructed:
 * Download both the html and css file from github.
 * Make a folder on the desktop and save both the html and css file in it, keep the extensions same as html and css.
-* Open the html file from the folder in your chrome and check the layout/design.
-* Also you can type you file name and path in the localhost to run the code.
+* Open the html file from the folder in your chrome and check the layout/design as per the device range and layouts given.
+* Also, you can type the file name and path in the localhost to run the code.
 * For viewing both the codes, you can view in any editor or in github.
 
 **BUILT WITH:**
