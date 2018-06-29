@@ -18,4 +18,6 @@ Html, Css and Javascript.
 **SUMMARY:**
 In this Project, I have tried to build different layouts for different device range as per the task given. I have designed this using html, css and javascript. Below are the attached output of the same.
 
-
+**Desktop Layout**
+![Desktop_Layout](https://user-images.githubusercontent.com/32759953/42066209-02980a7a-7b5d-11e8-8bfd-98a706429b74.png)
+![Ipad_Layout]
